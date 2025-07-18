@@ -5,6 +5,7 @@ import (
 	"patterns/generative/abstract"
 	"patterns/generative/builder"
 	"patterns/generative/factory"
+	"patterns/generative/prototype"
 )
 
 func main() {
@@ -20,4 +21,7 @@ func main() {
 	abstract.StartAbstractPattern()
 	fmt.Println("Generative patterns ---> Abstract ---> Example")
 	abstract.StartAbstractExamplePattern()
+
+	fmt.Println("Generative patterns ---> Prototype")
+	prototype.StartPrototypePattern()
 }
