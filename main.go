@@ -6,6 +6,7 @@ import (
 	"patterns/generative/builder"
 	"patterns/generative/factory"
 	"patterns/generative/prototype"
+	"patterns/generative/singleton"
 )
 
 func main() {
@@ -24,4 +25,7 @@ func main() {
 
 	fmt.Println("Generative patterns ---> Prototype")
 	prototype.StartPrototypePattern()
+
+	fmt.Println("Generative patterns ---> Singleton")
+	singleton.StartSingletonPattern()
 }
