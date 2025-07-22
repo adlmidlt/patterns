@@ -7,11 +7,13 @@ import (
 	"patterns/generative/factory"
 	"patterns/generative/prototype"
 	"patterns/generative/singleton"
+	"patterns/structural/adapter"
 )
 
 func main() {
 	fmt.Println("Hello patterns!")
 
+	// GENERATIVE
 	fmt.Println("Generative patterns ---> Builder")
 	builder.StartBuilderPattern()
 
@@ -28,4 +30,8 @@ func main() {
 
 	fmt.Println("Generative patterns ---> Singleton")
 	singleton.StartSingletonPattern()
+
+	// STRUCTURAL
+	fmt.Println("Structural patterns ---> Adapter")
+	adapter.StartAdapterPattern()
 }
