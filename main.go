@@ -9,6 +9,7 @@ import (
 	"patterns/generative/singleton"
 	"patterns/structural/adapter"
 	"patterns/structural/decorator"
+	"patterns/structural/facade"
 )
 
 func main() {
@@ -38,4 +39,7 @@ func main() {
 
 	fmt.Println("Structural patterns ---> Decorator")
 	decorator.StartDecoratorPattern()
+
+	fmt.Println("Structural patterns ---> Facade")
+	facade.StartFacadePattern()
 }
