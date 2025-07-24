@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"patterns/behavioral/command"
 	"patterns/behavioral/state"
 	"patterns/behavioral/strategy"
 	"patterns/generative/abstract"
@@ -55,4 +56,7 @@ func main() {
 
 	fmt.Println("Behavioral patterns ---> State")
 	state.StartStatePattern()
+
+	fmt.Println("Behavioral patterns ---> Command")
+	command.StartCommandPattern()
 }
