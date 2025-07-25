@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"patterns/behavioral/command"
+	"patterns/behavioral/mediator"
 	"patterns/behavioral/state"
 	"patterns/behavioral/strategy"
 	"patterns/generative/abstract"
@@ -59,4 +60,8 @@ func main() {
 
 	fmt.Println("Behavioral patterns ---> Command")
 	command.StartCommandPattern()
+
+	fmt.Println("Behavioral patterns ---> Mediator")
+	mediator.StartMediatorPattern()
+
 }
