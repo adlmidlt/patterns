@@ -38,6 +38,7 @@ func main() {
 
 	fmt.Println("Generative patterns ---> Singleton")
 	singleton.StartSingletonPattern()
+	singleton.StartSingleton1Pattern()
 
 	// STRUCTURAL
 	fmt.Println("Structural patterns ---> Adapter")
