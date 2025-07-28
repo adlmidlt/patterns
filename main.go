@@ -23,6 +23,7 @@ func main() {
 	// GENERATIVE
 	fmt.Println("Generative patterns ---> Builder")
 	builder.StartBuilderPattern()
+	builder.StartBuilder1Pattern()
 
 	fmt.Println("Generative patterns ---> Factory")
 	factory.StartFactoryPattern()
