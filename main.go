@@ -27,6 +27,7 @@ func main() {
 
 	fmt.Println("Generative patterns ---> Factory")
 	factory.StartFactoryPattern()
+	factory.StartFactory1Pattern()
 
 	fmt.Println("Generative patterns ---> Abstract")
 	abstract.StartAbstractPattern()
